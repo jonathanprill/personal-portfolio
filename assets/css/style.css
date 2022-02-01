@@ -52,12 +52,11 @@ main {
 h1 {
     font-size: 37vw;
     overflow-x: hidden;
-    letter-spacing: -.05em;
     word-wrap: break-word;
     animation-fill-mode: forwards;
     margin: 0;
     padding: 0;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.051em;
     font-weight: inherit;
     
     
