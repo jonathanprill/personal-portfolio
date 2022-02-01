@@ -72,7 +72,7 @@ h1 {
 
 .last-name {
     animation: last-name-load 1.25s 400ms;
-    transform: translateX(100%);
+    transform: translateX(130%);
     animation-fill-mode: forwards;
 
 }
