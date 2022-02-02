@@ -19,8 +19,7 @@ body {
 }
 
 nav {
-    margin: 60px;
-    background-color: var(--secondary-color);
+    margin: 0;
     color: var(--secondary-color);
     animation: nav-load 500ms;
     padding: 70px 0 70px 0;
@@ -50,15 +49,16 @@ nav a {
     text-decoration: none;
 }
 
+header {
+    min-height: 100vh;
+    /* height: 100vh; */
+    background-color: #777();
+}
+
 main {
     width: 100%;
 }
   
-.hero-top {
-    margin: 0;
-    padding: 0;
-}
-
 h1 {
     font-size: 37vw;
     word-wrap: break-word;
@@ -87,12 +87,12 @@ h1 {
 
 .section-line-right {
     transform: translateX(100%);
-    transition: 800ms;
+    transition: 900ms;
 }
 
 .section-line-left {
     transform: translateX(-100%);
-    transition: 800ms;
+    transition: 900ms;
 }
 
 .section-line-right.show,
