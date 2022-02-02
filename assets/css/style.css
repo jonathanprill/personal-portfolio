@@ -60,7 +60,7 @@ h1 {
     animation-fill-mode: forwards;
     margin: 0;
     padding: 0;
-    letter-spacing: -0.051em;
+    letter-spacing: -0.055em;
     font-weight: inherit;
     
     
@@ -78,6 +78,16 @@ h1 {
     animation: last-name-load 1.25s 400ms;
     transform: translateX(130%);
     animation-fill-mode: forwards;
+
+}
+
+.section-line {
+    transform: translateX(100%);
+    transition: 800ms;
+}
+
+.section-line.show {
+    transform: translateX(0);
 
 }
 
