@@ -19,12 +19,17 @@ body {
 }
 
 nav {
+    margin: 60px;
+    background-color: var(--secondary-color);
     color: var(--secondary-color);
     animation: nav-load 500ms;
+    padding: 70px 0 70px 0;
+    
 }
 
 nav ul {
-    margin: 0;
+    padding: 0;
+    
     display: flex;
     justify-content: center;
     
@@ -41,7 +46,7 @@ nav li:hover {
 }
 
 nav a {
-    color: inherit;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -50,7 +55,7 @@ main {
 }
   
 .hero-top {
-    margin: 0 0 0 0;
+    margin: 0;
     padding: 0;
 }
 
@@ -58,19 +63,16 @@ h1 {
     font-size: 37vw;
     word-wrap: break-word;
     animation-fill-mode: forwards;
-    margin: 0;
-    padding: 0;
     letter-spacing: -0.055em;
     font-weight: inherit;
-    
-    
 }
 
 .first-name {
-    margin: 0 0 -55px 0;
     animation: first-name-load 1.25s 400ms;
     transform: translateX(-100%);
     animation-fill-mode: forwards;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -78,6 +80,8 @@ h1 {
     animation: last-name-load 1.25s 400ms;
     transform: translateX(130%);
     animation-fill-mode: forwards;
+    margin: -45px 0 24vh 0;
+    padding: 0;
 
 }
 
