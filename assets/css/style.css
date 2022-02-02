@@ -81,15 +81,22 @@ h1 {
 
 }
 
-.section-line {
+.section-line-right {
     transform: translateX(100%);
     transition: 800ms;
 }
 
-.section-line.show {
-    transform: translateX(0);
-
+.section-line-left {
+    transform: translateX(-100%);
+    transition: 800ms;
 }
+
+.section-line-right.show,
+.section-line-left.show {
+    transform: translateX(0);
+}
+
+
 
 
 
