@@ -1,9 +1,14 @@
 :root {
     --primary-color: #777;
     --secondary-color: #08fdd8;
+    overflow-x: hidden;
+
 }
 
 body {
+   
+    overflow-x: hidden;
+
     margin: 0;
     background-color: #1d1d1d;
     color: var(--primary-color);
@@ -51,7 +56,6 @@ main {
 
 h1 {
     font-size: 37vw;
-    overflow-x: hidden;
     word-wrap: break-word;
     animation-fill-mode: forwards;
     margin: 0;
@@ -76,9 +80,6 @@ h1 {
     animation-fill-mode: forwards;
 
 }
-
-
-
 
 
 
