@@ -24,9 +24,10 @@ p {
 }
 
 h2 {
+    font-family: 'Roboto Slab', serif;
     color: var(--secondary-color);
     font-size: 1.75rem;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.1em;
     display: flex;
 }
 
@@ -154,7 +155,7 @@ h1 {
     font-size: 24px;
     font-family: "Open Sans",sans-serif;
     color: #fff;
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 0;
 }
 
 .post-desc {
@@ -162,6 +163,45 @@ h1 {
     font-family: "Open Sans",sans-serif;
 }
 
+.section-contact {
+    background-color: #0e0e0e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-photo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.contact-photo img{
+    margin-top: 25px;
+    padding: 3px;
+    height: 50vw;
+    width: 50vw;  
+    border-radius: 50%;
+    box-shadow: 1px 2px 4.5px var(--secondary-color);
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px 0 0 0;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    color: var(--primary-color);
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    color: #fff;
+  }
+  
+  
 
 .section-line-right {
     transform: translateX(99%);
