@@ -9,11 +9,13 @@ const observer = new IntersectionObserver(entries => {
     })
 },
 {
+
+    
     //rule regarding percentage of item on screen
-    //threshold: 1
+    threshold: 0,
 
     //rule giving border margin to start animation
-    //rootMargin: "-100px",
+    rootMargin: "-1px"
 }
 );
 
