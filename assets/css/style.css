@@ -69,10 +69,10 @@ nav a {
 }
 
 .section-bio {
-    background-color: #0e0e0e;
+    background-color: #131313;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .text-zone {
@@ -98,8 +98,8 @@ nav a {
 .skills img{
     margin: 0 10px 0 10px;
     padding: 13px;
-    height: 15vw;
-    width: 15vw;  
+    height: 12vw;
+    width: 12vw;  
 }
   
 h1 {
@@ -166,7 +166,7 @@ h1 {
 }
 
 .section-contact {
-    background-color: #0e0e0e;
+    background-color: #131313;
    
 }
 
@@ -193,6 +193,10 @@ h1 {
 
 .section-project a {
     text-decoration: none;
+}
+
+footer {
+    padding: 20px 25px;
 }
 
 /* Style all font awesome icons */
@@ -269,18 +273,6 @@ h1 {
 
 /* MEDIA QUERY FOR DESKTOP SCREENS  */
 
-@media screen and (min-width: 750px) {
-    .project-article {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .contact-photo img{
-        height: 25vw;
-        width: 25vw;  
-    }
-    
-}
 
 @media screen and (min-width: 520px) {
     .first-name{
@@ -299,4 +291,82 @@ h1 {
     }
 
     
+}
+
+@media screen and (min-width: 750px) {
+    .project-article {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .contact-photo img{
+        height: 15vw;
+        width: 15vw;  
+    }
+
+    .first-name {
+        animation: none;
+        transform: none;
+        animation-fill-mode: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .last-name {
+        animation: none;
+        transform: none;
+        animation-fill-mode: none;
+        margin: 0 0 0 0;
+        padding: 0;
+    }
+
+    .title-block-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        animation: first-name-load 1.25s 400ms;
+        transform: translateX(-100%);
+        animation-fill-mode: forwards;
+        margin: 100px 0 0 0;
+        padding: 0;
+    }
+
+    .title-block-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        animation: last-name-load 1.25s 400ms;
+        transform: translateX(130%);
+        animation-fill-mode: forwards;
+        margin: -45px 0 0 0;
+        padding: 0;
+    }
+
+    .titles{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav {
+        margin: -12% 0 0 0;
+    }
+
+    .section-bio {
+        padding: 4rem 12rem 0 12rem;
+    }
+
+    .skills img{
+        height: 6vw;
+        width: 6vw;  
+    }
+
+    .section-contact {
+        padding: 4rem 12rem 0 12rem;
+    }
 }
