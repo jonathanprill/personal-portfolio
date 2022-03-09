@@ -191,6 +191,10 @@ h1 {
     align-items: end;
 }
 
+.section-project a {
+    text-decoration: none;
+}
+
 /* Style all font awesome icons */
 .fa {
     padding: 10px 0 0 0;
