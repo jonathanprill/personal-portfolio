@@ -1,3 +1,4 @@
 # Personal Portfolio
 
-For practice in bootstrap and jquery.
+![Screenshot Alt Text](./assets/images/portfolio-video.gif)
+
