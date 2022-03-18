@@ -95,13 +95,226 @@ nav a {
     flex-wrap: wrap; 
 }
 
-.skills img{
-    margin: 0 10px 0 10px;
-    padding: 13px;
-    height: 12vw;
-    width: 12vw;  
+.skills-icons {
+    padding: 0 5px 15px 5px; 
 }
-  
+
+/* HTML ICON */
+
+.html-icon path{
+    fill: transparent;
+    stroke-width: 0.16;
+    stroke: var(--secondary-color);
+    stroke-dasharray: 35;
+    stroke-dashoffset: 0;
+}
+
+.html-icon:hover path {
+    animation: animate-html 2s linear forwards;
+}
+
+@keyframes animate-html {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    40% {
+        stroke-dashoffset: 35;
+    }
+    80% {
+        stroke-dashoffset: 70;
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 70;
+        fill: var(--secondary-color);
+    }
+}
+
+/* CSS ICON */
+.css-icon path{
+    fill: transparent;
+    stroke-width: 2;
+    stroke: var(--secondary-color);
+    stroke-dasharray: 700;
+    stroke-dashoffset: 0;
+}
+
+.css-icon:hover path {
+    animation: animate-css 2s linear forwards;
+} 
+
+@keyframes animate-css {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    40% {
+        stroke-dashoffset: 700;
+    }
+    80% {
+        stroke-dashoffset: 1400;
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 1400;
+        fill: var(--secondary-color);
+    }
+}  
+/* JS ICON */
+.js-icon path{
+    fill: transparent;
+    stroke-width: 0.2;
+    stroke: var(--secondary-color);
+    stroke-dasharray: 58;
+    stroke-dashoffset: 0;
+}
+
+.js-icon:hover path {
+    animation: animate-js 2s linear forwards;
+} 
+
+@keyframes animate-js {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    40% {
+        stroke-dashoffset: 58;
+    }
+    80% {
+        stroke-dashoffset: 116;
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 116;
+        fill: var(--secondary-color);
+    }
+}  
+
+/* NODE ICON */
+.node-icon path{
+    fill: transparent;
+    stroke-width: 6;
+    stroke: var(--secondary-color);
+    stroke-dasharray: 1050;
+    stroke-dashoffset: 0;
+}
+
+.node-icon:hover path {
+    animation: animate-node 2s linear forwards;
+} 
+
+@keyframes animate-node {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    40% {
+        stroke-dashoffset: 1050;
+    }
+    80% {
+        stroke-dashoffset: 2100;
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 2100;
+        fill: var(--secondary-color);
+    }
+}  
+
+/* Bootstap Icon */
+.boot-icon path{
+    fill: transparent;
+    stroke-width: 0.4;
+    stroke: var(--secondary-color);
+    stroke-dasharray: 75;
+    stroke-dashoffset: 0;
+}
+
+.boot-icon:hover path {
+    animation: animate-boot 2s linear forwards;
+} 
+
+@keyframes animate-boot {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    40% {
+        stroke-dashoffset: 75;
+    }
+    80% {
+        stroke-dashoffset: 150;
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 150;
+        fill: var(--secondary-color);
+    }
+}  
+
+/* SQL ICON */
+.sql-icon path{
+    fill: transparent;
+    stroke-width: 0.31;
+    stroke: var(--secondary-color);
+    stroke-dasharray: 65;
+    stroke-dashoffset: 0;
+}
+
+.sql-icon:hover path {
+    animation: animate-sql 2s linear forwards;
+} 
+
+@keyframes animate-sql {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    40% {
+        stroke-dashoffset: 65;
+    }
+    80% {
+        stroke-dashoffset: 130;
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 130;
+        fill: var(--secondary-color);
+    }
+}  
+
+/* NPM ICON */
+.npm-icon {
+    margin-top: -18px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.npm-icon path{
+    fill: transparent;
+    stroke-width: 0.15;
+    stroke: var(--secondary-color);
+    stroke-dasharray: 65;
+    stroke-dashoffset: 0;
+}
+
+.npm-icon:hover path {
+    animation: animate-npm 2s linear forwards;
+} 
+
+@keyframes animate-npm {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    40% {
+        stroke-dashoffset: 65;
+    }
+    80% {
+        stroke-dashoffset: 130;
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 130;
+        fill: var(--secondary-color);
+    }
+}  
+
+
 h1 {
     font-size: 33vw;
     word-wrap: break-word;
@@ -360,11 +573,6 @@ footer {
 
     .section-bio {
         padding: 4rem 12rem 0 12rem;
-    }
-
-    .skills img{
-        height: 6vw;
-        width: 6vw;  
     }
 
     .section-contact {
