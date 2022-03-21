@@ -103,7 +103,7 @@ nav a {
 
 .html-icon path{
     fill: transparent;
-    stroke-width: 0.16;
+    stroke-width: 0.18;
     stroke: var(--secondary-color);
     stroke-dasharray: 35;
     stroke-dashoffset: 0;
@@ -133,7 +133,7 @@ nav a {
 /* CSS ICON */
 .css-icon path{
     fill: transparent;
-    stroke-width: 2;
+    stroke-width: 2.3;
     stroke: var(--secondary-color);
     stroke-dasharray: 700;
     stroke-dashoffset: 0;
@@ -185,7 +185,7 @@ nav a {
     }
     100% {
         stroke-dashoffset: 116;
-        fill: var(--secondary-color);
+        /* fill: var(--secondary-color); */
     }
 }  
 
@@ -222,7 +222,7 @@ nav a {
 /* Bootstap Icon */
 .boot-icon path{
     fill: transparent;
-    stroke-width: 0.4;
+    stroke-width: 0.3;
     stroke: var(--secondary-color);
     stroke-dasharray: 75;
     stroke-dashoffset: 0;
@@ -289,7 +289,7 @@ nav a {
     fill: transparent;
     stroke-width: 0.15;
     stroke: var(--secondary-color);
-    stroke-dasharray: 65;
+    stroke-dasharray: 50;
     stroke-dashoffset: 0;
 }
 
@@ -302,17 +302,50 @@ nav a {
         stroke-dashoffset: 0;
     }
     40% {
-        stroke-dashoffset: 65;
+        stroke-dashoffset: 50;
     }
     80% {
-        stroke-dashoffset: 130;
+        stroke-dashoffset: 100;
         fill: transparent;
     }
     100% {
-        stroke-dashoffset: 130;
+        stroke-dashoffset: 100;
         fill: var(--secondary-color);
     }
 }  
+
+/* Handlebars ICON */
+.handlebars-icon {
+    margin-top: 6px;
+}
+.handlebars-icon path{
+    fill: transparent;
+    stroke-width: 0.35;
+    stroke: var(--secondary-color);
+    stroke-dasharray: 90;
+    stroke-dashoffset: 0;
+}
+
+.handlebars-icon:hover path {
+    animation: animate-npm 2s linear forwards;
+} 
+
+@keyframes animate-npm {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    40% {
+        stroke-dashoffset: 90;
+    }
+    80% {
+        stroke-dashoffset: 180;
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 180;
+        fill: var(--secondary-color);
+    }
+} 
 
 
 h1 {
