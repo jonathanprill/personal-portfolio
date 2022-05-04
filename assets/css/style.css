@@ -64,7 +64,7 @@ nav a {
 
 .section-full {
     height: 100vh;
-    background-color: #777();
+    /* background-color: #777(); */
     min-height: 100vh;   
 }
 
@@ -76,7 +76,7 @@ nav a {
 }
 
 .text-zone {
-    padding: 20px 30px 0 30px;
+    padding: 10px 30px 0 30px;
 }
 
 .scroll-down {
@@ -87,6 +87,16 @@ nav a {
     color: #fff;
     justify-content: flex-end;
     
+}
+
+.resume a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 2rem;
+    color: orange;
+    letter-spacing: 0.25rem;
+    padding-bottom: 12px;
 }
 
 .skills {
@@ -107,11 +117,12 @@ nav a {
     stroke: var(--secondary-color);
     stroke-dasharray: 35;
     stroke-dashoffset: 0;
+    animation: animate-html 2s linear 13s;
 }
 
-.html-icon:hover path {
+/* .html-icon:hover path {
     animation: animate-html 2s linear forwards;
-}
+} */
 
 @keyframes animate-html {
     0% {
@@ -122,11 +133,11 @@ nav a {
     }
     80% {
         stroke-dashoffset: 70;
-        fill: transparent;
+      
     }
     100% {
         stroke-dashoffset: 70;
-        fill: var(--secondary-color);
+       
     }
 }
 
@@ -137,11 +148,8 @@ nav a {
     stroke: var(--secondary-color);
     stroke-dasharray: 700;
     stroke-dashoffset: 0;
+    animation: animate-css 2s linear 20s;
 }
-
-.css-icon:hover path {
-    animation: animate-css 2s linear forwards;
-} 
 
 @keyframes animate-css {
     0% {
@@ -152,13 +160,12 @@ nav a {
     }
     80% {
         stroke-dashoffset: 1400;
-        fill: transparent;
     }
     100% {
         stroke-dashoffset: 1400;
-        fill: var(--secondary-color);
     }
 }  
+
 /* JS ICON */
 .js-icon path{
     fill: transparent;
@@ -166,11 +173,8 @@ nav a {
     stroke: var(--secondary-color);
     stroke-dasharray: 58;
     stroke-dashoffset: 0;
+    animation: animate-js 2s linear 15s;
 }
-
-.js-icon:hover path {
-    animation: animate-js 2s linear forwards;
-} 
 
 @keyframes animate-js {
     0% {
@@ -181,11 +185,9 @@ nav a {
     }
     80% {
         stroke-dashoffset: 116;
-        fill: transparent;
     }
     100% {
         stroke-dashoffset: 116;
-        /* fill: var(--secondary-color); */
     }
 }  
 
@@ -196,11 +198,8 @@ nav a {
     stroke: var(--secondary-color);
     stroke-dasharray: 1050;
     stroke-dashoffset: 0;
+    animation: animate-node 2s linear 8s;
 }
-
-.node-icon:hover path {
-    animation: animate-node 2s linear forwards;
-} 
 
 @keyframes animate-node {
     0% {
@@ -211,11 +210,9 @@ nav a {
     }
     80% {
         stroke-dashoffset: 2100;
-        fill: transparent;
     }
     100% {
         stroke-dashoffset: 2100;
-        fill: var(--secondary-color);
     }
 }  
 
@@ -226,11 +223,8 @@ nav a {
     stroke: var(--secondary-color);
     stroke-dasharray: 75;
     stroke-dashoffset: 0;
+    animation: animate-boot 2s linear 2s;
 }
-
-.boot-icon:hover path {
-    animation: animate-boot 2s linear forwards;
-} 
 
 @keyframes animate-boot {
     0% {
@@ -241,11 +235,9 @@ nav a {
     }
     80% {
         stroke-dashoffset: 150;
-        fill: transparent;
     }
     100% {
         stroke-dashoffset: 150;
-        fill: var(--secondary-color);
     }
 }  
 
@@ -256,11 +248,8 @@ nav a {
     stroke: var(--secondary-color);
     stroke-dasharray: 65;
     stroke-dashoffset: 0;
+    animation: animate-sql 2s linear 25s;
 }
-
-.sql-icon:hover path {
-    animation: animate-sql 2s linear forwards;
-} 
 
 @keyframes animate-sql {
     0% {
@@ -271,11 +260,9 @@ nav a {
     }
     80% {
         stroke-dashoffset: 130;
-        fill: transparent;
     }
     100% {
         stroke-dashoffset: 130;
-        fill: var(--secondary-color);
     }
 }  
 
@@ -291,11 +278,8 @@ nav a {
     stroke: var(--secondary-color);
     stroke-dasharray: 50;
     stroke-dashoffset: 0;
+    animation: animate-npm 2s linear 30s;
 }
-
-.npm-icon:hover path {
-    animation: animate-npm 2s linear forwards;
-} 
 
 @keyframes animate-npm {
     0% {
@@ -306,11 +290,9 @@ nav a {
     }
     80% {
         stroke-dashoffset: 100;
-        fill: transparent;
     }
     100% {
         stroke-dashoffset: 100;
-        fill: var(--secondary-color);
     }
 }  
 
@@ -324,13 +306,10 @@ nav a {
     stroke: var(--secondary-color);
     stroke-dasharray: 90;
     stroke-dashoffset: 0;
+    animation: animate-handlebars 2s linear 5s;
 }
 
-.handlebars-icon:hover path {
-    animation: animate-npm 2s linear forwards;
-} 
-
-@keyframes animate-npm {
+@keyframes animate-handlebars {
     0% {
         stroke-dashoffset: 0;
     }
@@ -339,11 +318,9 @@ nav a {
     }
     80% {
         stroke-dashoffset: 180;
-        fill: transparent;
     }
     100% {
         stroke-dashoffset: 180;
-        fill: var(--secondary-color);
     }
 } 
 
@@ -403,7 +380,7 @@ h1 {
     font-size: 24px;
     font-family: "Open Sans",sans-serif;
     color: #fff;
-    margin: 1rem 0;
+    margin: 0.6rem 0 1rem 0;
 }
 
 .post-desc {
@@ -468,6 +445,7 @@ footer {
     transform: translateX(99%);
     transition: 1s;
     margin: 0;
+    
 }
 
 .section-line-left {
@@ -515,8 +493,11 @@ footer {
         transform: translatex(0);
     }
 }
-  
-  
+
+.email-text {
+    text-decoration: none;
+    color: orange;
+}
 
 /* MEDIA QUERY FOR DESKTOP SCREENS  */
 
