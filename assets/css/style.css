@@ -53,11 +53,13 @@ nav li {
     margin: 0 10px;
 }
 
-nav li:hover {
+nav a:hover {
+    color: #1d1d1d;
     background-color: var(--primary-color);
 }
 
 nav a {
+    padding: 10px;
     color: var(--primary-color);
     text-decoration: none;
 }
