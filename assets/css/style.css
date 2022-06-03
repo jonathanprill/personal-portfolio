@@ -6,7 +6,7 @@
 }
 
 body {
-   
+
     overflow-x: hidden;
 
     margin: 0;
@@ -15,11 +15,11 @@ body {
     font-family: 'Bebas Neue', cursive;
     /* font-family: 'Open Sans', sans-serif; */
     /* font-family: 'Staatliches', cursive; */
-   
+
 }
 
 p {
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.2rem;
 }
 
@@ -36,9 +36,9 @@ nav {
     color: var(--secondary-color);
     animation: nav-load 1s;
     padding: 30px 0 20px 0;
-    
-    
-    
+
+
+
 }
 
 nav ul {
@@ -67,7 +67,7 @@ nav a {
 .section-full {
     height: 100vh;
     /* background-color: #777(); */
-    min-height: 100vh;   
+    min-height: 100vh;
 }
 
 .section-bio {
@@ -88,32 +88,52 @@ nav a {
     font-size: 14px;
     color: #fff;
     justify-content: flex-end;
-    
+
 }
 
-.resume a{
+/* .resume a {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: orange;
     letter-spacing: 0.25rem;
     padding-bottom: 12px;
+} */
+
+.resume a {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(17, 17, 20);
+    /* font-family: 'Bebas Neue', cursive; */
+    letter-spacing: 5px;
+    padding: 10px;  
 }
+
+.resume {
+    margin-top: 5%;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #00F0FF 0%, #7AE286 100%) top/100% 2px, linear-gradient(to right, #00F0FF 0%, #7AE286 100%) bottom/100% 2px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
 
 .skills {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .skills-icons {
-    padding: 0 5px 15px 5px; 
+    padding: 0 5px 15px 5px;
 }
 
 /* HTML ICON */
 
-.html-icon path{
+.html-icon path {
     fill: transparent;
     stroke-width: 0.18;
     stroke: var(--secondary-color);
@@ -130,21 +150,24 @@ nav a {
     0% {
         stroke-dashoffset: 0;
     }
+
     40% {
         stroke-dashoffset: 35;
     }
+
     80% {
         stroke-dashoffset: 70;
-      
+
     }
+
     100% {
         stroke-dashoffset: 70;
-       
+
     }
 }
 
 /* CSS ICON */
-.css-icon path{
+.css-icon path {
     fill: transparent;
     stroke-width: 2.3;
     stroke: var(--secondary-color);
@@ -157,19 +180,22 @@ nav a {
     0% {
         stroke-dashoffset: 0;
     }
+
     40% {
         stroke-dashoffset: 700;
     }
+
     80% {
         stroke-dashoffset: 1400;
     }
+
     100% {
         stroke-dashoffset: 1400;
     }
-}  
+}
 
 /* JS ICON */
-.js-icon path{
+.js-icon path {
     fill: transparent;
     stroke-width: 0.2;
     stroke: var(--secondary-color);
@@ -182,19 +208,22 @@ nav a {
     0% {
         stroke-dashoffset: 0;
     }
+
     40% {
         stroke-dashoffset: 58;
     }
+
     80% {
         stroke-dashoffset: 116;
     }
+
     100% {
         stroke-dashoffset: 116;
     }
-}  
+}
 
 /* NODE ICON */
-.node-icon path{
+.node-icon path {
     fill: transparent;
     stroke-width: 6;
     stroke: var(--secondary-color);
@@ -207,19 +236,22 @@ nav a {
     0% {
         stroke-dashoffset: 0;
     }
+
     40% {
         stroke-dashoffset: 1050;
     }
+
     80% {
         stroke-dashoffset: 2100;
     }
+
     100% {
         stroke-dashoffset: 2100;
     }
-}  
+}
 
 /* Bootstap Icon */
-.boot-icon path{
+.boot-icon path {
     fill: transparent;
     stroke-width: 0.3;
     stroke: var(--secondary-color);
@@ -232,19 +264,22 @@ nav a {
     0% {
         stroke-dashoffset: 0;
     }
+
     40% {
         stroke-dashoffset: 75;
     }
+
     80% {
         stroke-dashoffset: 150;
     }
+
     100% {
         stroke-dashoffset: 150;
     }
-}  
+}
 
 /* SQL ICON */
-.sql-icon path{
+.sql-icon path {
     fill: transparent;
     stroke-width: 0.31;
     stroke: var(--secondary-color);
@@ -257,16 +292,19 @@ nav a {
     0% {
         stroke-dashoffset: 0;
     }
+
     40% {
         stroke-dashoffset: 65;
     }
+
     80% {
         stroke-dashoffset: 130;
     }
+
     100% {
         stroke-dashoffset: 130;
     }
-}  
+}
 
 /* NPM ICON */
 .npm-icon {
@@ -274,7 +312,8 @@ nav a {
     padding-left: 0;
     padding-right: 0;
 }
-.npm-icon path{
+
+.npm-icon path {
     fill: transparent;
     stroke-width: 0.15;
     stroke: var(--secondary-color);
@@ -287,22 +326,26 @@ nav a {
     0% {
         stroke-dashoffset: 0;
     }
+
     40% {
         stroke-dashoffset: 50;
     }
+
     80% {
         stroke-dashoffset: 100;
     }
+
     100% {
         stroke-dashoffset: 100;
     }
-}  
+}
 
 /* Handlebars ICON */
 .handlebars-icon {
     margin-top: 6px;
 }
-.handlebars-icon path{
+
+.handlebars-icon path {
     fill: transparent;
     stroke-width: 0.35;
     stroke: var(--secondary-color);
@@ -315,16 +358,19 @@ nav a {
     0% {
         stroke-dashoffset: 0;
     }
+
     40% {
         stroke-dashoffset: 90;
     }
+
     80% {
         stroke-dashoffset: 180;
     }
+
     100% {
         stroke-dashoffset: 180;
     }
-} 
+}
 
 
 h1 {
@@ -358,7 +404,7 @@ h1 {
 
 .project-articles {
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -380,19 +426,19 @@ h1 {
 
 .post-title {
     font-size: 24px;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: #fff;
     margin: 0.6rem 0 1rem 0;
 }
 
 .post-desc {
     font-size: 14px;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .section-contact {
     background-color: #131313;
-   
+
 }
 
 .contact-photo {
@@ -400,11 +446,11 @@ h1 {
     justify-content: center;
 }
 
-.contact-photo img{
+.contact-photo img {
     margin-top: 55px;
     padding: 3px;
     height: 50vw;
-    width: 50vw;  
+    width: 50vw;
     border-radius: 50%;
     box-shadow: 1px 2px 4.5px var(--secondary-color);
 }
@@ -434,20 +480,20 @@ footer {
     text-decoration: none;
     background: none;
     color: var(--primary-color);
-  }
-  
-  /* Add a hover effect if you want */
+}
+
+/* Add a hover effect if you want */
 .fa:hover {
     color: #fff;
 }
-  
-  
+
+
 
 .section-line-right {
     transform: translateX(99%);
     transition: 1s;
     margin: 0;
-    
+
 }
 
 .section-line-left {
@@ -482,15 +528,17 @@ footer {
     0% {
         transform: translatex(-100%);
     }
+
     100% {
         transform: translatex(0);
     }
 }
-  
+
 @keyframes last-name-load {
     0% {
         transform: translatex(100%);
     }
+
     100% {
         transform: translatex(0);
     }
@@ -505,13 +553,13 @@ footer {
 
 
 @media screen and (min-width: 520px) {
-    .first-name{
+    .first-name {
         display: flex;
         justify-content: center;
         margin-top: 2%;
     }
 
-    .last-name{
+    .last-name {
         display: flex;
         justify-content: center;
     }
@@ -520,7 +568,7 @@ footer {
         font-size: 6rem;
     }
 
-    
+
 }
 
 @media screen and (min-width: 750px) {
@@ -529,9 +577,9 @@ footer {
         margin-right: 10px;
     }
 
-    .contact-photo img{
+    .contact-photo img {
         height: 15vw;
-        width: 15vw;  
+        width: 15vw;
     }
 
     .first-name {
@@ -541,7 +589,7 @@ footer {
         margin: 0;
         padding: 0;
     }
-    
+
     .last-name {
         animation: none;
         transform: none;
@@ -572,7 +620,7 @@ footer {
         padding: 0;
     }
 
-    .titles{
+    .titles {
         display: flex;
         flex-direction: column;
     }
