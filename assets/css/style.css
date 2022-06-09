@@ -468,7 +468,9 @@ h1 {
 }
 
 footer {
-    padding: 20px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Style all font awesome icons */
