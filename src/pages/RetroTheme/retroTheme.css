@@ -767,6 +767,10 @@ label {
     background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%), url("./assets/chessmaster-card4.png");
 }
 
+.chessConnect {
+    background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%), url("./assets/chessConnectGIF.gif");
+}
+
 .hacker-forum {
     background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%), url("./assets/hack-forum-card.gif");
 }

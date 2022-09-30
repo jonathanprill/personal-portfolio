@@ -7,9 +7,10 @@ function ProjectCards() {
     const cardInfo = [
         { languages: 'APIs and mySQL', title: 'Spray Can', desc: 'Discover and tag your favorite street art.', gitlink: 'https://github.com/jonathanprill/spray-can-project-2', link: 'https://enigmatic-cliffs-72783.herokuapp.com/', class: 'spray-can  card-image' },
         { languages: 'MERN and GraphQL', title: 'Vegeta', desc: 'Improve your online presence with this website builder.', gitlink: 'https://github.com/DevJonTaylor/code-vegeta', link: 'https://code-vegeta.herokuapp.com/', class: 'vegeta  card-image' },
-        { languages: 'APIs and JS', title: 'Chess Master', desc: 'Take your chess game to the next level.', gitlink: 'https://github.com/jowstafford/ChessMaster', link: 'https://jowstafford.github.io/ChessMaster/', class: 'chessmaster card-image' },
+        { languages: 'APIs and NoSQL', title: 'ChessConnect', desc: 'Chess lessons and networking.', gitlink: 'https://github.com/jonathanprill/icdb', link: 'https://lit-caverns-13633.herokuapp.com/', class: 'chessConnect  card-image' },
         { languages: 'Local Storage and jQuery', title: 'Taskmaster Pro', desc: 'To-do app inspired by Asana.', gitlink: 'https://github.com/jonathanprill/taskmaster-pro', link: 'https://jonathanprill.github.io/taskmaster-pro/', class: 'taskmaster card-image' },
         { languages: 'mySQL and Node', title: 'Hacker Forum', desc: 'Public square for coders.', gitlink: 'https://github.com/jonathanprill/hacker-forum', link: 'https://nameless-sands-05757.herokuapp.com/', class: 'hacker-forum card-image' },
+        { languages: 'APIs and JS', title: 'Chess Master', desc: 'Take your chess game to the next level.', gitlink: 'https://github.com/jowstafford/ChessMaster', link: 'https://jowstafford.github.io/ChessMaster/', class: 'chessmaster card-image' },
         { languages: 'APIs and JS', title: 'Weather Dashboard', desc: 'Check your local weather.', gitlink: 'https://github.com/jonathanprill/weather-dashboard', link: 'https://jonathanprill.github.io/weather-dashboard/', class: 'weather card-image' },
         { languages: 'MERN', title: 'Deep Thoughts', desc: 'Full stack Mern application featuring GraphQL.', gitlink: 'https://github.com/jonathanprill/deep-thoughts', link: 'https://mysterious-ocean-45457.herokuapp.com/', class: 'deep-thoughts card-image' }
     ]

@@ -109,14 +109,14 @@ function DarkTheme() {
                             <div className="dT-post-desc">For those that want to discover new street art.</div>
                         </div>
                     </article>
-                    <article className="dT-project-article" style={{ borderTopColor: "#E4EE89" }}>
+                    <article className="dT-project-article" style={{ borderTopColor: "#769656" }}>
                         <div>
-                            <div className="dT-post-data" style={{ color: "#E4EE89" }}>APIs &amp; JS</div>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/jowstafford/ChessMaster"><MdiGithub style={{ paddingTop: "12px" }} /></a>
-                            <a target="_blank" rel="noreferrer" href="https://jowstafford.github.io/ChessMaster/">
-                                <h5 className="dT-post-title">Chess Master</h5>
+                            <div className="dT-post-data" style={{ color: "#769656" }}>APIs &amp; NOSQL</div>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/jonathanprill/icdb"><MdiGithub style={{ paddingTop: "12px" }} /></a>
+                            <a target="_blank" rel="noreferrer" href="https://lit-caverns-13633.herokuapp.com/">
+                                <h5 className="dT-post-title">ChessConnect</h5>
                             </a>
-                            <div className="dT-post-desc">For chess players that want to take their game to the next level.</div>
+                            <div className="dT-post-desc">Chess lessons and networking.</div>
                         </div>
                     </article>
                     <article className="dT-project-article" style={{ borderTopColor: "#81D8F7" }}>
@@ -137,6 +137,16 @@ function DarkTheme() {
                                 <h5 className="dT-post-title">Taskmaster Pro</h5>
                             </a>
                             <div className="dT-post-desc">To-do app inspired by Asana.</div>
+                        </div>
+                    </article>
+                    <article className="dT-project-article" style={{ borderTopColor: "#E4EE89" }}>
+                        <div>
+                            <div className="dT-post-data" style={{ color: "#E4EE89" }}>APIs &amp; JS</div>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/jowstafford/ChessMaster"><MdiGithub style={{ paddingTop: "12px" }} /></a>
+                            <a target="_blank" rel="noreferrer" href="https://jowstafford.github.io/ChessMaster/">
+                                <h5 className="dT-post-title">Chess Master</h5>
+                            </a>
+                            <div className="dT-post-desc">For chess players that want to take their game to the next level.</div>
                         </div>
                     </article>
                     <article className="dT-project-article" style={{ borderTopColor: "#81D8F7" }}>
